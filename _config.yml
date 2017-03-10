@@ -1,6 +1,6 @@
 # Dependencies
 markdown:         kramdown
-highlighter:      pygments
+highlighter:      rouge
 
 # Permalinks
 permalink:        /blog/:categories/:year/:month/:day/:title/
@@ -59,4 +59,4 @@ gems:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
-  - pygments
+  - rouge

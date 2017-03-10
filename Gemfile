@@ -33,7 +33,7 @@ gem 'redcarpet', '~> 3.4'
 
 gem 'jekyll-gist', '~> 1.4'
 
-gem 'pygments.rb', '~> 1.1', '>= 1.1.1'
+gem 'rouge', '~> 1.7'
 
 gem 'jekyll-sitemap', '~> 1.0'
 
