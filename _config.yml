@@ -1,0 +1,62 @@
+# Dependencies
+markdown:         kramdown
+highlighter:      pygments
+
+# Permalinks
+permalink:        /blog/:categories/:year/:month/:day/:title/
+
+# Setup
+title:            Mattori Birnbaum
+tagline:          'Student computer scientist and East Asian linguist'
+description:      'Student computer scientist and 日本語/한국어/中文 learner at Grinnell College'
+url:              http://mattori.com
+baseurl:          ''
+
+# Sidebar
+sidebar_tags:     [programming, language]
+color:            '#202020'
+
+# Fonts
+font:             '"PT Serif", Georgia, serif'
+font_accent:      '"Roboto Slab", "PT Serif", Georgia, serif'
+load_google_fonts: 'Roboto+Slab:700|PT+Serif:400,400italic,700,700italic'
+
+author:
+  # Standard
+  name:           'Mattori Birnbaum'
+  email:          mattori.birnbaum@gmail.com
+  github:         PsychicNoodles
+  url:            http://mattori.com
+
+  social:
+    facebook:     mattori.birnbaum
+    instagram:    psychicnoodles
+    reddit:       psychicnoodles
+    github:       PsychicNoodles
+    linkedin:     mattori-birnbaum-221451a3
+
+paginate:         5
+paginate_path:    /blog/page:num/
+
+compress_html:
+  comments:          ["<!-- ", " -->"]
+  clippings:         all
+  endings:           all
+  ignore:
+    envs:            [local]
+
+sass:
+  style:             compressed
+
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/poole/hyde
+
+gems:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - pygments
