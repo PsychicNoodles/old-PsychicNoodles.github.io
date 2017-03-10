@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Hello, World!
+tags: [programming, language]
 ---
 
 Hello there. This is my first post on this website. Exciting!
