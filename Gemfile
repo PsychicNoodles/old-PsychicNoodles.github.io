@@ -38,3 +38,5 @@ gem 'rouge', '~> 1.7'
 gem 'jekyll-sitemap', '~> 1.0'
 
 gem 'github-pages'
+
+gem 'jekyll-tagging'

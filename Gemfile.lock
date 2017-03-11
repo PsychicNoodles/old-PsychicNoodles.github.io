@@ -119,6 +119,8 @@ GEM
     jekyll-sitemap (1.0.0)
       jekyll (~> 3.3)
     jekyll-swiss (0.4.0)
+    jekyll-tagging (1.1.0)
+      nuggets
     jekyll-theme-architect (0.0.3)
       jekyll (~> 3.3)
     jekyll-theme-cayman (0.0.3)
@@ -170,6 +172,7 @@ GEM
     net-dns (0.8.0)
     nokogiri (1.6.8.1)
       mini_portile2 (~> 2.1.0)
+    nuggets (1.5.0)
     octokit (4.6.2)
       sawyer (~> 0.8.0, >= 0.5.3)
     pathutil (0.14.0)
@@ -204,6 +207,7 @@ DEPENDENCIES
   jekyll-gist (~> 1.4)
   jekyll-paginate (~> 1.1)
   jekyll-sitemap (~> 1.0)
+  jekyll-tagging
   jekyll-theme-hyde (~> 2.0)
   redcarpet (~> 3.4)
   rouge (~> 1.7)
