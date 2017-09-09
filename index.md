@@ -11,20 +11,20 @@ layout: page
 Hello, I'm Mattori. I also go by [PsychicNoodles](http://github.com/PsychicNoodles).
 
 Welcome to my website. I mainly post about my accomplishments and thoughts about
-programming or languages, and sometimes I share projects I've worked on. Perhaps
-one day there will be even more fun stuff.
+programming or human languages, and sometimes I share projects I've worked on.
 
-I am a second year undergraduate student at [Grinnell College](http://www.grinnell.edu/),
-where I (intend to) major in Computer Science and (intend to ) minor in East
-Asian Studies.
+I am a third year undergraduate student at [Grinnell College](http://www.grinnell.edu/),
+where I major in Computer Science and (intend to) concentrate/minor in East
+Asian Studies. For the Fall semester I am studying abroad through [IES](https://www.iesabroad.org/)
+at [Nanzan University](http://www.nanzan-u.ac.jp/) in Nagoya, Japan.
 
 In terms of CS, I am in [AppDev](http://appdev.grinnell.edu/) as a senior
-Android developer and Android Education lead in training. I also tutor CS
-students in the evenings. My primary CS interests are software development,
-intersections between CS and language, and other topics as they seem cool to me.
+Android developer and Android Education lead in training. My primary CS interests
+are software development, intersections between CS and language, and other topics
+as they seem cool to me.
 
-In terms of East Asian Studies, I am formally studying Japanese at a second-year
-level, learned Korean from student teachers for a semester, and studied Chinese
+In terms of East Asian Studies, I am formally studying Japanese through study abroad,
+learned Korean from student teachers for a semester, and studied Chinese
 formally throughout high school and for a semester at Grinnell.
 
 If you would like to contact me directly, please email me at
