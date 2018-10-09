@@ -40,3 +40,4 @@ gem 'jekyll-sitemap', '~> 1.0'
 gem 'github-pages'
 
 gem 'jekyll-tagging'
+
