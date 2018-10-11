@@ -13,7 +13,6 @@ url:              http://mattori.com
 baseurl:          ''
 
 # Sidebar
-sidebar_tags:     [programming, language]
 color:            '#202020'
 
 # Fonts
@@ -30,7 +29,6 @@ author:
   cv:             MattoriBirnbaumCV.pdf
 
   social:
-    facebook:     mattori.birnbaum
     instagram:    psychicnoodles
     google:       106972849349592875112
     github:       PsychicNoodles
