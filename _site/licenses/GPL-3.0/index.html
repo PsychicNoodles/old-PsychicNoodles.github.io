@@ -32,23 +32,25 @@ Powered by Hydejack v9.1.4 <https://hydejack.com/>
   
     
 <!-- Begin Jekyll SEO tag v2.7.1 -->
-<title>GNU GENERAL PUBLIC LICENSE | Starter Kit</title>
+<title>GNU GENERAL PUBLIC LICENSE | Mattori Birnbaum</title>
 <meta name="generator" content="Jekyll v4.2.0" />
 <meta property="og:title" content="GNU GENERAL PUBLIC LICENSE" />
-<meta name="author" content="<firstname> <lastname>" />
+<meta name="author" content="Mattori Birnbaum" />
 <meta property="og:locale" content="en" />
-<meta name="description" content="Hydejack is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress." />
-<meta property="og:description" content="Hydejack is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress." />
-<meta property="og:site_name" content="Starter Kit" />
+<meta name="description" content="Website and mini-portfolio of Mattori Birnbaum." />
+<meta property="og:description" content="Website and mini-portfolio of Mattori Birnbaum." />
+<meta property="og:site_name" content="Mattori Birnbaum" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="GNU GENERAL PUBLIC LICENSE" />
 <script type="application/ld+json">
-{"@type":"WebPage","url":"/licenses/GPL-3.0/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/assets/img/logo.png"},"name":"<firstname> <lastname>"},"headline":"GNU GENERAL PUBLIC LICENSE","dateModified":"1970-01-01T09:33:41+09:00","author":{"@type":"Person","name":"<firstname> <lastname>"},"description":"Hydejack is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress.","@context":"https://schema.org"}</script>
+{"@type":"WebPage","description":"Website and mini-portfolio of Mattori Birnbaum.","headline":"GNU GENERAL PUBLIC LICENSE","dateModified":"2021-05-09T16:44:34+09:00","author":{"@type":"Person","name":"Mattori Birnbaum"},"url":"/licenses/GPL-3.0/","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
   
 
+  
+    <meta name="keywords" content="computer science,web engineer,software development,programming,coding,japanese,language,japan">
   
 
 <meta charset="utf-8">
@@ -58,10 +60,10 @@ Powered by Hydejack v9.1.4 <https://hydejack.com/>
 <meta name="mobile-web-app-capable" content="yes">
 
 <meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-title" content="Starter Kit">
+<meta name="apple-mobile-web-app-title" content="Mattori Birnbaum">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 
-<meta name="application-name" content="Starter Kit">
+<meta name="application-name" content="Mattori Birnbaum">
 
 
   <meta name="theme-color" content="rgb(8,46,57)">
@@ -72,7 +74,7 @@ Powered by Hydejack v9.1.4 <https://hydejack.com/>
 
 <link rel="alternate" href="/licenses/GPL-3.0/" hreflang="en">
 
-<link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Starter Kit" />
+<link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Mattori Birnbaum" />
 
 
 <link rel="shortcut icon"    href="/assets/icons/favicon.ico">
@@ -105,7 +107,7 @@ Powered by Hydejack v9.1.4 <https://hydejack.com/>
   w._search = {
     DATA_URL: '/assets/sitedata.json?no-cache',
     STORAGE_KEY: 'mini-search/',
-    INDEX_KEY: 'index--2021-05-09T16:43:57+09:00',
+    INDEX_KEY: 'index--2021-05-09T18:38:54+09:00',
   };
   w._clapButton = true;
 }(window);</script>
@@ -137,69 +139,6 @@ html{--accent-color: rgb(79,177,186);--accent-color-faded: rgba(79,177,186,0.5);
 <!--<![endif]-->
 
 
-<!--
-Code used for embedding Gumroad on the Hydejack Site. 
-Left here for reference, feel free to delete.
--->
-<link rel="dns-prefetch" href="https://assets.gumroad.com">
-<script>window.GET_CLAPS_API = 'https://worker.getclaps.dev'</script>
-<script type="module">
-  const ppiData = window._ppiData = fetch('https://hydejack-ppi.qwtel.workers.dev', { mode: 'cors'}).then(res => res.json()).catch(() => ({}));
-  const promisify = f => x => new Promise(r => f(x).addEventListener('load', r));
-  const loadJS = promisify(window.loadJS);
-  {
-    let p;
-    document.querySelector('hy-push-state').addEventListener('load', () => {
-      const io = new IntersectionObserver(async (entries) => {
-        if (entries.some(x => x.isIntersecting)) {
-          p = p || loadJS('https://gumroad.com/js/gumroad-embed.js');
-          const [{ code }] = await Promise.all([ppiData, p]);
-          document.querySelectorAll('.gumroad-product-embed').forEach(el => { 
-            if (!el.dataset.gumroadParams) {
-              el.dataset.gumroadParams = 'offer_code=' + (code || 'qr0tw8m');
-            }
-          });
-          if (!window.GumroadEmbed) {
-            await new Promise(function check1(res) {
-              if ('createGumroadEmbed' in window) res(window.createGumroadEmbed());
-              else setTimeout(() => check1(res), 200);
-            });
-          }
-          await new Promise(function check2(res) {
-            if ('GumroadEmbed' in window) res(GumroadEmbed.reload());
-            else setTimeout(() => check2(res), 200);
-          });
-        }
-      }, { rootMargin: '1440px' });
-      document.querySelectorAll('.gumroad-product-embed').forEach(el => io.observe(el));
-    });
-  }
-  {
-    let p;
-    document.querySelector('hy-push-state').addEventListener('load', () => {
-      const io = new IntersectionObserver(async (entries) => {
-        if (entries.some(x => x.isIntersecting)) {
-          p = p || loadJS('https://gumroad.com/js/gumroad.js');
-          const [{ code }] = await Promise.all([ppiData, p]);
-          if (code) {
-            document.querySelectorAll('.gumroad-button').forEach(el => { 
-              if (!el.href.endsWith(code)) {
-                el.href = el.href + '/' + (code || 'qr0tw8m');
-              }
-            });
-          }
-          if (!window.GumroadOverlay) {
-            await new Promise(function check(res) {
-              if ('createGumroadOverlay' in window) res(window.createGumroadOverlay());
-              else setTimeout(() => check(res), 200);
-            });
-          }
-        }
-      }, { rootMargin: '300px' });
-      document.querySelectorAll('.gumroad-button').forEach(el => io.observe(el));
-    });
-  }
-</script>
 
 
 </head>
@@ -920,14 +859,6 @@ copy of the Program in return for a fee.</p>
     
       
       <a class="heading flip-title" href="/LICENSE/">LICENSE</a>
-      |
-    
-      
-      <a class="heading flip-title" href="/NOTICE/">NOTICE</a>
-      |
-    
-      
-      <a class="heading flip-title" href="/CHANGELOG/">CHANGELOG</a>
       
     
     </small></nav>
@@ -958,15 +889,11 @@ copy of the Program in return for a fee.</p>
     <div class="sidebar-sticky">
   <div class="sidebar-about">
     
-      <a class="no-hover" href="/" tabindex="-1">
-        <img src="/assets/img/logo.png" class="avatar" alt="Starter Kit" width="120" height="120" loading="lazy" />
-      </a>
-    
-    <a class="sidebar-title" href="/"><h2 class="h1">Starter Kit</h2></a>
+    <a class="sidebar-title" href="/"><h2 class="h1">Mattori Birnbaum</h2></a>
     
     
       <p class="">
-        Change <code class="language-plaintext highlighter-rouge">tagline</code> in <code class="language-plaintext highlighter-rouge">_config.yml</code>
+        Computer Scientist and Japanese Language Aficionado
 
       </p>
     
@@ -977,41 +904,9 @@ copy of the Program in return for a fee.</p>
 <ul>
   
     
-      
-      <li>
-        <a
-          id="_drawer--opened"
-          href="/example/"
-          class="sidebar-nav-item "
-          
-        >
-          Example
-        </a>
-      </li>
     
-      
-      <li>
-        <a
-          
-          href="/docs/"
-          class="sidebar-nav-item "
-          
-        >
-          Documentation
-        </a>
-      </li>
     
-      
-      <li>
-        <a
-          
-          href="/about/"
-          class="sidebar-nav-item "
-          
-        >
-          About
-        </a>
-      </li>
+
     
   
 </ul>
@@ -1040,7 +935,7 @@ copy of the Program in return for a fee.</p>
   
 
   <li>
-    <a href="https://twitter.com/<username>" title="Twitter" class="no-mark-external">
+    <a href="https://twitter.com/PsychicNoodles" title="Twitter" class="no-mark-external">
       <span class="icon-twitter"></span>
       <span class="sr-only">Twitter</span>
     </a>
@@ -1064,9 +959,81 @@ copy of the Program in return for a fee.</p>
   
 
   <li>
-    <a href="https://github.com/<username>" title="GitHub" class="no-mark-external">
+    <a href="https://github.com/PsychicNoodles" title="GitHub" class="no-mark-external">
       <span class="icon-github"></span>
       <span class="sr-only">GitHub</span>
+    </a>
+  </li>
+
+
+    
+      
+
+
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  <li>
+    <a href="mailto:<me@mattori.com>" title="Email" class="no-mark-external">
+      <span class="icon-mail"></span>
+      <span class="sr-only">Email</span>
+    </a>
+  </li>
+
+
+    
+      
+
+
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  <li>
+    <a href="https://www.linkedin.com/in/www.linkedin.com/in/mattori-birnbaum" title="LinkedIn" class="no-mark-external">
+      <span class="icon-linkedin2"></span>
+      <span class="sr-only">LinkedIn</span>
+    </a>
+  </li>
+
+
+    
+      
+
+
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  <li>
+    <a href="assets/MattoriBirnbaumCV.pdf" title="Resume" class="no-mark-external">
+      <span class="icon-quill"></span>
+      <span class="sr-only">Resume</span>
     </a>
   </li>
 
@@ -1158,8 +1125,6 @@ Code for integrating CloudFlare's email protection with Hydejack's single page a
     }()
   });
 </script>
-
-
 
 
 

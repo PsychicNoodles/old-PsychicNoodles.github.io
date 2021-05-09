@@ -1,34 +1,37 @@
 # The primary author of this blog.
 # Must be the same as `author` in `_config.yml`.
 # Change `author1` to your shortname.
-author1:
-  name:              <firstname> <lastname>
-  email:             <mail@domain.tld>
+mattori:
+  name: Mattori Birnbaum
+  email: <me@mattori.com>
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
-  about:             |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    
-    Open `_data/authors.yml` to edit this text.
+  about: |
+    Hello, I'm Mattori. I also go by PsychicNoodles.
+
+    I am a web engineer at [Careertrek (キャリトレ)](https://www.careertrek.com/).
+    Careertrek is built using (and I work professionally in) Spring Boot in
+    Java for the backend and TypeScript + React for the frontend.
+    I also dabble in Rust, break my desktop environment trying to use xmonad,
+    and tinker with hobby projects.
+
+    I am also a student of the Japanese language, having studied since 2015,
+    and have followed my language interests to Japan. I am currently studying
+    for the JLPT N2 with plans for the N1 as well as trying my best to go out
+    into the world and practice spoken Japanese.
 
   # This photo will be used in the about section
   picture:
-    path:            https://placehold.it/128x128
-    # srcset is optional, but can be used to provide higher res versions for retina displays
-    srcset:
-      1x:            https://placehold.it/128x128
-      2x:            https://placehold.it/256x256
+    path: /assets/img/profile.jpg
 
   # Social media icons in sidebar
   # Comment/uncommet to show/hide
   # Rearrange to change the order in which they appear
   social:
-    twitter:         <username>
-    github:          <username>
-    # email:           <mail@domain.tld>
+    twitter: PsychicNoodles
+    github: PsychicNoodles
+    email: <me@mattori.com>
     # rss:             https://<url>/feed.xml
     # facebook:        <username>
     # google:          <number>
@@ -57,26 +60,11 @@ author1:
     # npm:             <username>
     # hackernews:      <username>
     # trello:          <firstnamelastname>
-    # linkedin:        <firstname-lastname-string>
+    linkedin: www.linkedin.com/in/mattori-birnbaum
     # xing:            <firstname_lastname_counter>
     # blogger:         <number>
     # delicious:       <username>
     # stumbleupon:     <username>
     # paypal:          <username>
-    # download:        <url>
     # keybase          <username>
-
-# Another author (optional)
-author2:
-  name:              <firtname> <lastname>
-  email:             <mail@domain.tld>
-  about:             |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-    Open `_data/authors.yml` to edit this text.
-
-  picture:           https://placehold.it/128x128
-  twitter:           <username>
-  github:            <username>
+    resume: assets/MattoriBirnbaumCV.pdf
